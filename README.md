@@ -20,7 +20,7 @@ git clone https://github.com/yourusername/vscode-vsix-downloader.git
 
 3. Enable "Developer mode" (top right corner)
 
-4. Click "Load unpacked" and select the project folder
+4. Click "Load unpacked" and select the project folder [inner VSIX-downloader-main directory]
 
 ## How It Works
 
