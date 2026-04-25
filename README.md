@@ -1,6 +1,7 @@
 # VSCode VSIX Direct Download
 
 A Chrome extension that adds a direct download button for VSIX files on the Visual Studio Code Marketplace.
+<img width="889" height="356" alt="image" src="https://github.com/user-attachments/assets/dd9ee6ba-14c7-438e-ab27-8d126dc465cc" />
 
 ## Features
 
