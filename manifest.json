@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "VSCode VSIX Direct Download",
+  "version": "1.0.0",
+  "description": "A Chrome extension that adds a direct download button for VSIX files on the Visual Studio Code Marketplace. \r https://github.com/siniorone/VSIX-downloader",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["https://marketplace.visualstudio.com/items?*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_end"
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
